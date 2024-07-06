@@ -1,0 +1,294 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.btn{
+    padding: 14px 18px 14px 28px;
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0%;
+    text-align: center;
+    border-radius: 8px;
+    background: rgb(82, 195, 3);
+    border: none;
+}
+
+.btn-cotrol{
+    text-align: center;
+}
+
+#hero{
+    height: 1415px;
+    background-image: linear-gradient(180.00deg, rgb(16, 16, 16) -19.5%,rgba(16, 16, 16, 0) 100%), url('../assets/hero-bg.png');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#hero .hreo_contant{
+    width: 664px;
+    margin: 0 auto;
+}
+
+#hero .hreo_contant .subtitle{
+    color: rgb(255, 255, 255);
+font-family: Work Sans;
+font-size: 18px;
+font-weight: 500;
+line-height: 28px;
+letter-spacing: 0%;
+text-align: center;
+opacity: 0.7;
+margin-bottom: 10px;
+}
+
+#hero .hreo_contant .title{
+    color: rgb(255, 255, 255);
+font-family: Work Sans;
+font-size: 36px;
+font-weight: 700;
+line-height: 50px;
+letter-spacing: 0%;
+text-align: center;
+margin-bottom: 14px;
+}
+
+#hero .hreo_contant .description{
+    color: rgb(255, 255, 255);
+font-family: Work Sans;
+font-size: 10px;
+font-weight: 500;
+line-height: 16px;
+letter-spacing: 0%;
+text-align: center;
+opacity: 0.7;
+margin-bottom: 32px;
+
+}
+
+.card-box{
+    width: 812px;
+    margin: 100px auto;
+ 
+}
+
+.card-box .title{
+    color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 28px;
+font-weight: 700;
+line-height: 32px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+.card-box .subtitle{
+    color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 14px;
+font-weight: 500;
+line-height: 16px;
+letter-spacing: 0%;
+text-align: center;
+opacity: 0.6;
+
+}
+
+.card-box .info{
+
+}
+
+.cart-con{
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.cart{
+    max-width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.cart .imagf-box{
+    width: 250px;
+}
+
+.cart .imagf-box img{
+    width: 100%;
+}
+
+.cart .cadt-shop{
+    padding: 10px 18px 10px 18px;
+    border-radius: 8px;
+     background: rgb(82, 195, 3);
+}
+
+.second-contant {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.second-contant .imgbox{
+    background-image: url('../assets/social-bg.png');
+    background-size: cover;
+    background-position: center;
+    width: 518px;
+    height: 362px;
+}
+
+
+.second-contant .contact{
+    width: 518px;
+    height: 362px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+.second-contant .title{
+    color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 30px;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: 0%;
+text-align: center;
+margin-bottom: 24px;
+}
+
+.second-contant .subtitle{
+    color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 14px;
+font-weight: 500;
+line-height: 20px;
+letter-spacing: 0%;
+text-align: center;
+opacity: 0.6;
+margin-bottom: 48px;
+}
+
+.second-contant .follow{
+    width: 100%;
+    color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 14px;
+font-weight: 600;
+line-height: 20px;
+letter-spacing: 0%;
+text-align: center;
+opacity: 0.7;
+border-bottom: 1px solid rgba(16, 16, 16, 0.2);
+border-top: 1px solid rgba(16, 16, 16, 0.2);
+padding: 8px 10px 8px 10px;
+margin-bottom: 25px;
+}
+
+.social{
+    display: flex ;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.social .fa-brands{
+    margin: 10px;
+    font-size: 20px;
+} 
+
+
+.foot{
+     height: 362px;
+     background-image: url('../assets/foods.png');
+     background-size: cover;
+     background-position: center;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     position: relative;
+     z-index: 9999;
+}
+
+.foot-contant .title{
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.foot-contant .subtitle{
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.6;
+    margin-bottom: 35px;
+}
+
+.foot-contant .follow{
+    width: 100%;
+    color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 14px;
+font-weight: 600;
+line-height: 20px;
+letter-spacing: 0%;
+text-align: center;
+opacity: 0.7;
+border-bottom: 1px solid rgba(16, 16, 16, 0.2);
+border-top: 1px solid rgba(16, 16, 16, 0.2);
+padding: 8px 10px 8px 10px;
+margin-bottom: 25px;
+}
+
+ .foot .foot-contant{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+   
+}
+
+.foot .dark{
+     position: absolute ;
+     background:white;
+     opacity: 0.8;
+     width: 100%;
+     height: 100%;
+     top: 0;
+     left: 0;
+     z-index: -1;
+}
+
+
+
+
+
+
+
+
+
